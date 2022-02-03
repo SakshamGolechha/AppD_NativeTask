@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextWali"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gif2"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        />
+     <EditText
+         android:id="@+id/textbox"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Enter some text" />
+
+    <Button
+        android:id="@+id/LetsGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Share your text"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="#F4EFB3"
+        android:text="Share your messages with anyone!"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

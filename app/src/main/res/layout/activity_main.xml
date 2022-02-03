@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="#64ABBD"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Our Exclusive Features:"
+        android:textColor="#0C0C0C"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#CCADAD"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/gif1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+         />
+
+    <Button
+        android:id="@+id/crush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tap to call your crush"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Share Texts"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/MapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Find Places"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/CallBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Call Contact"
+        app:rippleColor="@android:color/holo_red_dark" />
+
+</LinearLayout>
